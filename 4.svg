@@ -7,7 +7,7 @@
                 cy="50%"
                 r="38%"
                 fill="red"
-                onPress={() => alert('Press on Circle')}
+                onPress="{() => alert('Press on Circle')}"
             />
             <Rect
                 x="20%"
@@ -15,7 +15,7 @@
                 width="60%"
                 height="60%"
                 fill="blue"
-                onLongPress={() => alert('Long press on Rect')}
+                onLongPress="{() => alert('Long press on Rect')}"
             />
             <Path
                 d="M50,5L20,99L95,39L5,39L80,99z"
